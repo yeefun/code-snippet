@@ -3,17 +3,20 @@
  * #opt #animation
  */
 
-let ticking = false
+ function requestTick (fn) {
+  let ticking = false
+  const wEl = window
 
-function requestTick(fn) {
-  if (ticking) {
-    return
-  }
+  return (function IIFE () {
+    if (ticking) {
+      return
+    }
 
-  ticking = true
+    ticking = true
 
-  window.requestAnimationFrame(function callFn() {
-    fn()
-    ticking = false
-  })
+    wEl.requestAnimationFrame(function () {
+      fn()
+      ticking = false
+    })
+  })()
 }
