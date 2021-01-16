@@ -1,4 +1,4 @@
-/* #promise, #cache, #memo, #async */
+/* #Promise, #Cache, #Memo, #Async */
 
 // From https://www.jonmellman.com/posts/promise-memoization
 

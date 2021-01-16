@@ -1,4 +1,4 @@
-/* #scroll, #effect, #animation, #order, #trigger */
+/* #Scroll, #Effect, #Animation, #Order, #Trigger */
 
 class Scroll {
   constructor(args) {

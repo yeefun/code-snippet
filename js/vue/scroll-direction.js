@@ -1,4 +1,4 @@
-/* #scroll, #direction, #composition */
+/* #Scroll, #Direction, #Composition */
 
 function useScrollDirection() {
   const doesScrollDown = ref(false)

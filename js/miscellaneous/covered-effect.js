@@ -1,4 +1,4 @@
-/* #scroll, #covered, #effect */
+/* #Scroll, #Covered, #Effect */
 
 class CoveredEffect extends Scroll {
   constructor(args) {

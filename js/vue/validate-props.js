@@ -1,4 +1,4 @@
-/* #validate, #props */
+/* #Validate, #Props */
 
 export default {
   props: {

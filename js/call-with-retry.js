@@ -1,4 +1,4 @@
-/* #fetch, #async, #exception-handling, #backoff, #exponential */
+/* #Fetch, #Async, #Exception-Handling, #Backoff, #Exponential */
 
 // From https://advancedweb.hu/how-to-implement-an-exponential-backoff-retry-strategy-in-javascript/
 

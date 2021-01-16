@@ -1,4 +1,4 @@
-/* #opt, #debounce, #animation */
+/* #Opt, #Debounce, #Animation */
 
 function rafWithDebounce(func) {
   let isTicking = false;
